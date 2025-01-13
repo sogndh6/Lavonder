@@ -1,0 +1,163 @@
+body {
+
+  font-family: Arial, sans-serif;
+
+  margin: 0;
+
+  padding: 0;
+
+  color: #333;
+
+  direction: rtl;
+
+}
+
+header {
+  
+  <link rel="stylesheet" href="css/styles.css">
+  
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  padding: 1rem 2rem;
+
+  background-color: #763d7f;
+
+  color: #fff;
+ 
+}
+
+header .logo h1 {
+
+  margin: 0;
+
+}
+
+header nav ul {
+
+  display: flex;
+
+  list-style: none;
+
+  margin: 0;
+
+  padding: 0;
+
+}
+
+header nav ul li {
+
+  margin: 0 1rem;
+
+}
+
+header nav ul li a {
+
+  text-decoration: none;
+
+  color: white;
+
+  font-weight: bold;
+
+}
+
+header .search-bar {
+
+  display: flex;
+
+}
+
+header .search-bar input {
+
+  padding: 0.5rem;
+
+  margin-right: 0.5rem;
+
+  border: none;
+
+  border-radius: 5px;
+
+}
+
+.hero img {
+
+  width: 100%;
+
+  height: auto;
+
+}
+
+.categories {
+
+  display: flex;
+
+  justify-content: space-around;
+
+  padding: 2rem 0;
+
+  background-color: #f9f9f9;
+
+}
+
+.category-card {
+
+  text-align: center;
+
+  width: 30%;
+
+}
+
+.category-card img {
+
+  width: 100%;
+
+  border-radius: 8px;
+
+}
+
+.products {
+
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 1rem;
+
+  padding: 2rem;
+
+}
+
+.product-card {
+
+  text-align: center;
+
+  border: 1px solid #ddd;
+
+  padding: 1rem;
+
+  border-radius: 8px;
+
+}
+
+.product-card img {
+
+  width: 100%;
+
+  border-radius: 8px;
+
+}
+
+footer {
+
+  text-align: center;
+
+  padding: 1rem;
+
+  background-color: #763d7f;
+
+  color: white;
+
+}
